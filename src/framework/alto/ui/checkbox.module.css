@@ -1,0 +1,22 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    font-size: x-large;
+    margin-left: 0.5em;
+}
+
+input[type=checkbox] + label {
+    font-family: AvenirNext-Regular;
+    color: #fff;
+    margin-top: 2px;
+    margin-left: 0.5em;
+    margin-right: 2em;
+}

@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    border-bottom: 1px solid cyan;
+}
+
+html, body {
+    overflow-x: hidden;
+    min-height: 0em;
+    min-width: 0em;
+}
+
+body {
+    overflow: hidden;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    bottom: 0em;
+    margin: 0em;
+    font-family:'Avenir Next';
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+}

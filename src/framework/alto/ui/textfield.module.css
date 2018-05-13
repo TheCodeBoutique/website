@@ -1,0 +1,10 @@
+.textfield {
+    background: rgba(216, 216, 216, 0.20);
+    border: 1px solid #979797;
+    width: calc(100% - 1em);
+    height: 2.5em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    color: white;
+    font-size: 0.9em;
+}

@@ -1,0 +1,27 @@
+.base {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    bottom: 0em;
+}
+
+.rootNavIcon {
+    position: fixed;
+    width: 2em;
+    padding-left: 1em;
+    padding-top: 1em;
+    cursor: pointer;
+    z-index: 2;
+    display: none;
+}
+
+.scrollView {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    bottom: 0em;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
