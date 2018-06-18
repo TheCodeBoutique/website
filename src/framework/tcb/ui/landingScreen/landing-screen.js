@@ -8,13 +8,13 @@ const LandingScreen = () => (
         <div className={styles.pictureFrame}>
             <picture className={styles.picture}>
                 <source media="(min-width: 769px)" srcSet={tcbGlobe}/>
-                <img className={styles.icon} src={tcbGlobe}/>
+                <img className={styles.icon} src={tcbGlobe} alt="tcb-globe"/>
             </picture>
         </div>
         <footer className={styles.footer}>
             <picture className={styles.footerPicture}>
                 <source media="(min-width: 769px)" srcSet={lookBelow}/>
-                <img className={styles.lookBelowIcon} src={lookBelow}/>
+                <img className={styles.lookBelowIcon} src={lookBelow} alt="look-below"/>
             </picture>
         </footer>
     </section>

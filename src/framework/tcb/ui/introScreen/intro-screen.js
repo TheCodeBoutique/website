@@ -7,7 +7,7 @@ const IntroScreen = () => (
         <header className={styles.header}>Introduction</header>
         <picture className={styles.picture}>
             <source media="(min-width: 769px)" srcSet={tcbLogo}/>
-            <img className={styles.icon} src={tcbLogo}/>
+            <img className={styles.icon} src={tcbLogo} alt="tcb-logo"/>
         </picture>
         <div className={styles.body}>
             <span>

@@ -24,11 +24,11 @@ const EngineeringScreen = () => (
             <div className={styles.pictureFrame}>
                 <picture className={styles.pictureLeft}>
                     <source media="(min-width: 769px)" srcSet={leftDesignLine}/>
-                    <img className={styles.leftDesignLine} src={leftDesignLine}/>
+                    <img className={styles.leftDesignLine} src={leftDesignLine} alt="seperator-left"/>
                 </picture>
                 <picture className={styles.pictureRight}>
                     <source media="(min-width: 769px)" srcSet={rightDesignLine}/>
-                    <img className={styles.rightDesignLine} src={rightDesignLine}/>
+                    <img className={styles.rightDesignLine} src={rightDesignLine} alt="seperator-right"/>
                 </picture>
             </div>
         </div>

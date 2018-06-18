@@ -17,7 +17,7 @@ const IndexPage = ({
                    }) => (
     <div className={styles.base}>
 
-        <img className={styles.rootNavIcon} src={rootNavIcon} onClick={() => {
+        <img className={styles.rootNavIcon} src={rootNavIcon} alt="root-nav" onClick={() => {
             rootNavigationController.showRootNavigation()
         }}/>
 
