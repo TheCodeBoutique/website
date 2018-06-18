@@ -1,0 +1,75 @@
+.base {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    bottom: 0em;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    height: 4em;
+    display: flex;
+}
+
+.rootNavIcon {
+    position: fixed;
+    width: 2em;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.title {
+    font-family: AvenirNext-Medium;
+    font-size: 1.5em;
+    letter-spacing: 0.17px;
+    text-align: center;
+    width: 50%;
+    padding-top: 0.8em;
+}
+
+.subTitle {
+    font-family: AvenirNext-Medium;
+    font-size: 1.25em;
+    letter-spacing: 0.11px;
+    text-align: center;
+    width: 50%;
+    padding-top: 1.1em;
+}
+
+.body {
+    position: absolute;
+    top: 4em;
+    left: 0em;
+    right: 0em;
+    bottom: 0em;
+    background: #FCF7F4;
+    flex-direction: column;
+}
+
+.cover{
+    width: 50%;
+    height: 100%;
+    background-image: radial-gradient(5% 51%, rgba(255,255,255,0.00) 6%, rgba(237,237,237,0.42) 100%);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.seperator {
+    height: 96%;
+    width: 1px;
+    left: 50%;
+    background-color: #D1D1D1;
+    align-self: center;
+    flex-direction: initial;
+}
+
+.lightBlub {
+    height: 50%;
+    margin: auto;
+}

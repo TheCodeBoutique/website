@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './root-navigation-view.module.css';
-import closeIcon from '../../../../images/close-icon.png';
+// import closeIcon from '../../../../images/close-icon.png';
 import rootNavigationController from "../../../../controllers/root-navigation-controller";
 import connectViewToControllers from "../../../alto/data/controller/connect_controller";
 
@@ -10,11 +10,15 @@ const RootNavigationView = ({
     return isVisible ? (
         <div className={styles.base}>
             <div className={styles.masterView}>
-                <section className={styles.topToolbar}>
-                    <img className={styles.closeIcon} src={closeIcon} onClick={() => {
-                        rootNavigationController.hideNavigationController()
-                    }}/>
-                    <span className={styles.title}>Menu</span>
+                <section>
+                    <ul>
+                        <li>
+                            <div><span>Home</span></div>
+                        </li>
+                        <li>
+                            <div><span>Articles</span></div>
+                        </li>
+                    </ul>
                 </section>
             </div>
         </div>

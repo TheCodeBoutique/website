@@ -4,7 +4,7 @@
     left: 0em;
     right: 0em;
     bottom: 0em;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.75);
     z-index: 100;
 }
 
@@ -12,32 +12,9 @@
     position: absolute;
     top: 0em;
     left: 0em;
-    width: 20em;
+    width: 50em;
     bottom: 0em;
     border-right: solid rgba(0, 0, 0, 0.5) 1px;
-    background-color: white;
-}
-
-.closeIcon {
-    height: 1.5em;
-    padding-left: 0.7em;
-    cursor: pointer;
-}
-
-.topToolbar {
-    display: flex;
-    align-items: center;
-    height: 3em;
-    width: 100%;
-    border-bottom: solid rgba(0, 0, 0, 0.5) 1px;
-}
-
-.title {
-    line-height: 2em;
-    width: 73%;
-    text-align: center;
-    font-family: AvenirNext-Regular;
-    font-size: 1.5em;
-    color: #5E5E5E;
-    letter-spacing: 0.13px;
+    background-image: radial-gradient(at left -330%, #262739 20.17%, #15151a 91.6%);
+    box-shadow: inset -10px 0px 10px -10px black;
 }

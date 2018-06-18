@@ -13,7 +13,6 @@
     padding-top: 1em;
     cursor: pointer;
     z-index: 2;
-    display: none;
 }
 
 .scrollView {
@@ -22,6 +21,7 @@
     left: 0em;
     right: 0em;
     bottom: 0em;
-    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
