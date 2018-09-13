@@ -1,0 +1,55 @@
+.documentFrame {
+    max-width: 980px;
+    margin: auto;
+    margin-top: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contents {
+    width: 50%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    padding: 2em;
+}
+
+.contentFrame {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.contentTitle {
+    font-family: AvenirNext-Medium;
+    font-size: 1.5em;
+    letter-spacing: 0.17px;
+    color: #000000;
+    letter-spacing: 0.18px;
+}
+
+.sectionHeader {
+    font-family: AvenirNext-Bold;
+    font-size: 1.2em;
+    letter-spacing: 0.11px;
+}
+
+.listView {
+
+}
+
+.listView li {
+    padding-bottom: 1em;
+}
+
+.listView li:last-child {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.section {
+    padding: 2em;
+    padding-top: 0em;
+    width: 40%;
+}

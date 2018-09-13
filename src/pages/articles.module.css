@@ -49,27 +49,5 @@
     right: 0em;
     bottom: 0em;
     background: #FCF7F4;
-    flex-direction: column;
-}
-
-.cover{
-    width: 50%;
-    height: 100%;
-    background-image: radial-gradient(closest-side, rgba(255,255,255,0.00) 6%, rgba(237,237,237,0.42) 100%);
     display: flex;
-    justify-content: flex-end;
-}
-
-.seperator {
-    height: 96%;
-    width: 1px;
-    left: 50%;
-    background-color: #D1D1D1;
-    align-self: center;
-    flex-direction: initial;
-}
-
-.lightBlub {
-    height: 50%;
-    margin: auto;
 }

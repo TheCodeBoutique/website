@@ -1,0 +1,49 @@
+.cover{
+    width: 50%;
+    height: 100%;
+    background-image: radial-gradient(closest-side, rgba(255,255,255,0.00) 6%, rgba(237,237,237,0.42) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lbPicture {
+    width: 46%;
+    margin: auto;
+    display: flex;
+    height: 50%;
+    margin-bottom: 0em;
+}
+
+.lb {
+    max-width: 17em;
+    width: 100%;
+    margin: auto;
+}
+
+.tcbLogoPicture {
+    height: 10%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    max-height: 10em;
+    margin-top: 1em;
+    max-width: 60em;
+}
+
+.tcbLogo {
+    max-width: 22em;
+    width: 100%;
+    margin: auto;
+    margin-top: 0em;
+}
+
+.seperator {
+    height: 96%;
+    width: 1px;
+    left: 50%;
+    background-color: #D1D1D1;
+    align-self: center;
+    flex-direction: initial;
+    position: absolute;
+}

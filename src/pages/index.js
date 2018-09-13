@@ -4,13 +4,13 @@ import styles from './index.module.css';
 import rootNavIcon from '../images/root-nav-icon.png';
 import connectViewToControllers from "../framework/alto/data/controller/connect_controller";
 import rootNavigationController from "../controllers/root-navigation-controller";
-import RootNavigationView from "../framework/tcb/ui/rootNavigationView/root-navigation-view";
-import LandingScreen from "../framework/tcb/ui/landingScreen/landing-screen";
-import IntroScreen from "../framework/tcb/ui/introScreen/intro-screen";
-import EngineeringScreen from "../framework/tcb/ui/engineeringScreen/engineering-screen";
-import TrainingScreen from "../framework/tcb/ui/trainingScreen/training-screen";
-import OpenSourceScreen from "../framework/tcb/ui/openSourceScreen/open-source-screen";
-import CredoScreen from "../framework/tcb/ui/credoScreen/credo-screen";
+import RootNavigationView from "../components/rootNavigationView/root-navigation-view";
+import LandingScreen from "../components/landingScreen/landing-screen";
+import IntroScreen from "../components/introScreen/intro-screen";
+import EngineeringScreen from "../components/engineeringScreen/engineering-screen";
+import TrainingScreen from "../components/trainingScreen/training-screen";
+import OpenSourceScreen from "../components/openSourceScreen/open-source-screen";
+import CredoScreen from "../components/credoScreen/credo-screen";
 
 const IndexPage = ({
                        data
